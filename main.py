@@ -22,6 +22,10 @@ def pis (preco):
 def cofins (preco):
   return preco * 0.0854
 
+def imposto_renda (preco):
+  return preco * 2
+  
+
 quantidade = 400
 preco = 4.50
 
